@@ -1,0 +1,15 @@
+1. Apa itu localStorage?
+-> localStorage merupakan penyimpanan data pada website, hanya dapat diakses melalui client side, sehingga web server
+tidak dapat mengaksesnya secara langsung. Ukuran kapasitas localStorage umumnya adalah tidak lebih dari 5mb. Data
+pada local storage walaupun browser ditutup data akan tetap tersimpan karena tidak terdapat masa expired.
+
+2. Apa itu cookies?
+-> Cookie merupakan file teks berisi potongan kecil data yang dibuat oleh situs yang pengguna kunjungi.
+Situs web menggunakan cookie HTTP atau cookie browser untuk memudahkan pengguna. Jika tanpa cookie,
+pengguna harus login lagi setelah meninggalkan situs. Ada tiga kegunaan utama cookie. Cookie memiliki ukuran
+maksimal 4kb karena request cookie dapat dikirimkan setiap saat.
+
+3. Apa perbedaan antara localStorage dan sessionStorage?
+-> Perbedaan localStorage dan sessionStorage terletak pada masa expired penyimpanan tersebut. Jika pada localStorage
+data akan disimpan selamanya (tanpa expired) jika tidak dihapus manual, sedangkan pada sessionStorage ketik tab website
+ditutup data akan ikut hilang. 
